@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, Arial;
+    font-size: 18px;
+}
+.container{
+    width:80%;
+    margin: 0 auto;
+}
+.container h1{
+    text-transform:uppercase;
+    margin-top: 40px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    font-size: 150%;
+    font-weight: 300;
+    text-align: center;
+}
+article{
+    margin-top: 20px;
+}
+article h2{
+    font-size: 100%;
+}
+span.bold{
+    font-weight: bold;
+}
