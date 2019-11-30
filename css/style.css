@@ -1,9 +1,53 @@
+/*
+    ametyst: #9b59b6;
+    midnightblue: #2c3e50;
+ */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif, Arial;
     font-size: 18px;
+}
+header{
+    min-height:70px;
+
+    background-color: #222;
+    color: #fff;
+}
+header .logo{
+    margin-left: 15px;
+    float: left;
+    line-height: 70px;
+    font-weight: bold;
+}
+header .logo .ametyst{
+    color: #9b59b6;
+}
+header nav{
+    float: right;
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav li{
+    float:left;
+}
+header nav li a{
+    display: block;
+    margin: 15px 5px;
+    line-height: 40px;
+    padding: 0 10px;
+
+    text-decoration: none;
+    border: 1px solid #9b59b6;
+    border-radius: 20px;
+    color: #fff;
+
+}
+header nav li a:hover{
+    background-color: #9b59b6;
 }
 section{
     padding-top: 40px;
