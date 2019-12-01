@@ -129,3 +129,6 @@ span.bold{
 .clear{
     clear: both;
 }
+.margin{
+    height: 90px;
+}
