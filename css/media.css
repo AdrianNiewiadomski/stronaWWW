@@ -1,0 +1,52 @@
+#check,
+#ham {
+    display: none;
+}
+@media only screen and (max-width: 900px) {
+    .logo{
+        width: 50%;
+    }
+    #ham{
+        display: block;
+        float: right;
+        margin: 26px 26px 0 0;
+        width: 30%;
+
+    }
+    #ham span{
+        background-color: #fff;
+        display: block;
+        margin-left: auto;
+        width: 20px;
+        height: 4px;
+        margin-bottom: 3px;
+    }
+    header nav{
+        width: 100%;
+    }
+    header nav{
+        display: none;
+    }
+    #check:checked+#glowne-menu{
+        display: block;
+        width: 100%;
+    }
+    header nav li{
+        float: none;
+        clear: both;
+        width:100%;
+        margin:0;
+
+        border: 0;
+        padding: 0;
+        background-color: #7b3996;
+        text-align: center;
+    }
+    header nav li a{
+        display: block;
+        margin:0;
+        width: 100%;
+        border: none;
+        border-radius: 0;
+    }
+}

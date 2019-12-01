@@ -23,7 +23,7 @@ header{
     top: 0;
 }
 header .logo{
-    margin-left: 15px;
+    padding-left: 15px;
     float: left;
     line-height: 70px;
     font-weight: bold;
