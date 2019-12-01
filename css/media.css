@@ -2,7 +2,7 @@
 #ham {
     display: none;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 920px) {
     .logo{
         width: 50%;
     }
@@ -21,9 +21,9 @@
         height: 4px;
         margin-bottom: 3px;
     }
-    header nav{
+    /* header nav{
         width: 100%;
-    }
+    } */
     header nav{
         display: none;
     }
@@ -48,5 +48,26 @@
         width: 100%;
         border: none;
         border-radius: 0;
+    }
+
+    section.home,
+    section.home .container,
+    section.home .container article{
+        position:static;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        transform: none;
+    }
+
+    .daneKontaktowe {
+        float: none;
+        width: 100%;
+    }
+    .zdjeciePortretowe img{
+        padding-top: 20px;
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
