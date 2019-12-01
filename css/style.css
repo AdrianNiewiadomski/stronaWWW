@@ -1,6 +1,7 @@
 /*
     ametyst: #9b59b6;
     midnightblue: #2c3e50;
+    carrot:    #e67e22;
  */
 
 *{
@@ -101,7 +102,8 @@ section h1{
     text-align: center;
 }
 article{
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 article h2{
     font-size: 100%;
@@ -131,4 +133,32 @@ span.bold{
 }
 .margin{
     height: 90px;
+}
+
+article .col_1_of_3 {
+    float: left;
+    width: 33%;
+}
+article .col_2_of_3 {
+    float: left;
+    width: 66%;
+}
+article .col_2_of_3 h3{
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+article .col_2_of_3 p{
+    line-height: 150%;
+}
+article .col_2_of_3 a {
+    text-decoration: none;
+    background-color: #9b59b6;
+    color: #000;
+    padding: 2px 10px;
+    border-radius: 20px;
+    transition: background-color 0.5s, color 0.5s;
+}
+article .col_2_of_3 a:hover{
+    background-color: #e67e22;
+    color: #fff;
 }
