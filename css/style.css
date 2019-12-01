@@ -61,11 +61,38 @@ section{
 section.grey{
     background-color: #e8e8e8;
 }
+section.home{
+    color: #fff;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/code.png);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+section.home .container{
+    position: relative;
+    height: 100%;
+}
+section.home .container article{
+    position:absolute;
+    top: 70%;
+    transform:translate(0, 50%);
+    width: 100%;
+}
+section.home .container article p,
+section.home .container article a{
+    text-decoration: none;
+    color: #fff;
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
 .container{
     width:80%;
     margin: 0 auto;
 }
-.container h1{
+section h1{
     text-transform:uppercase;
     padding-bottom: 10px;
     border-bottom: 1px solid black;
@@ -83,15 +110,21 @@ span.bold{
     font-weight: bold;
 }
 .zdjeciePortretowe img{
+    padding-top: 70px;
     float:left;
     width:25%;
     height:auto;
 }
 .daneKontaktowe{
+    padding-top: 70px;
     float:left;
     width:75%;
     padding-left: 20px;
     padding-right: 20px;
+}
+.daneKontaktowe h1{
+    font-size: 200%;
+    border: transparent;
 }
 .clear{
     clear: both;
