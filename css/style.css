@@ -16,6 +16,11 @@ header{
     background-color: #222;
     color: #fff;
 }
+.sticky{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
 header .logo{
     margin-left: 15px;
     float: left;
